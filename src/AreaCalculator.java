@@ -1,5 +1,5 @@
 import java.util.*;
- class AreaCalculator
+ class Demo
 {
 	float calculateArea(float radius)
 	{
@@ -15,10 +15,10 @@ import java.util.*;
 	}
 }
 
-public class Demo{
+public class AreaCalculator{
 	public static void main(String args[])
 	{
-		AreaCalculator obj=new AreaCalculator();
+		Demo obj=new Demo();
 		Scanner sc=new Scanner(System.in);
 		float a=sc.nextFloat();
 		float l=sc.nextFloat();
