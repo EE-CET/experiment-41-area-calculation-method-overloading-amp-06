@@ -19,6 +19,12 @@ public class Demo{
 	public static void main(String args[])
 	{
 		AreaCalculator obj=new AreaCalculator();
+		Scanner sc=new Scanner(System.in);
+		float a=sc.nextFloat();
+		float l=sc.nextFloat();
+		float b=sc.nextFloat();
+		float base=sc.nextFloat();
+		float height=sc.nextFloat();
 		System.out.println(obj.calculateArea(5));
 		System.out.println(obj.calculateArea(4,5));
 		System.out.println(obj.calculateArea(3,6));
