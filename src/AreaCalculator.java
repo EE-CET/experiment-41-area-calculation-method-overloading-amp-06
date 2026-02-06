@@ -23,10 +23,10 @@ public class AreaCalculator{
 		float a=sc.nextFloat();
 		float l=sc.nextFloat();
 		float b=sc.nextFloat();
-		float base=sc.nextFloat();
-		float height=sc.nextFloat();
-		System.out.println(obj.calculateArea(5));
-		System.out.println(obj.calculateArea(4,5));
-		System.out.println(obj.calculateArea(3,6));
+		double base=sc.nextDouble();
+		double height=sc.nextDouble();
+		System.out.println("%0.2f",obj.calculateArea(a));
+		System.out.println("%0.2f",obj.calculateArea(l,b));
+		System.out.println("%0.2f",obj.calculateArea(base,height));
 	}
 }
