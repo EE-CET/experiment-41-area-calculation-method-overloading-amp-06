@@ -1,11 +1,11 @@
 import java.util.*;
  class Demo
 {
-	float calculateArea(float radius)
+	double calculateArea(float radius)
 	{
-		return (float)(3.14*radius*radius);
+		return (Math.PI*radius*radius);
 	}
-	float calculateArea(float length, float breadth)
+	double calculateArea(float length, float breadth)
 	{
 		return length*breadth;
 	}
@@ -25,8 +25,8 @@ public class AreaCalculator{
 		float b=sc.nextFloat();
 		double base=sc.nextDouble();
 		double height=sc.nextDouble();
-		System.out.println("%0.2f",obj.calculateArea(a));
-		System.out.println("%0.2f",obj.calculateArea(l,b));
-		System.out.println("%0.2f",obj.calculateArea(base,height));
+		System.out.printf("%.2f\n",obj.calculateArea(a));
+		System.out.printf("%.2f\n",obj.calculateArea(l,b));
+		System.out.printf("%.2f\n",obj.calculateArea(base,height));
 	}
 }
